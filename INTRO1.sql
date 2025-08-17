@@ -1,0 +1,8 @@
+--SELECT * FROM delivery_data WHERE customer_id IN(10130,10271,10207);
+--SELECT sum(distance_km) FROM delivery_data WHERE customer_id IN(10130,10271,10207);
+--SELECT sum(distance_km) FROM delivery_data WHERE delivery_id IN('D00137','D00140','D00172');
+--SELECT * FROM delivery_data LIMIT 10
+--SELECT city,AVG(distance_km) FROM delivery_data GROUP BY city
+--SELECT count(city) FROM delivery_data
+--SELECT count(city) FROM deliver_data WHERE city='Johannesburg';
+--SELECT count(city) FROM delivery_data WHERE city='Bloemfontein';
