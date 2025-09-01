@@ -1,0 +1,1 @@
+https://sqliteonline.com/#sqltext=%23url-sqlite%3Ddb-sqlite%0D%0A%23tab-name%3DSQLite%0D%0ASELECT%20*%0AFROM%20delivery_data2%0Awhere%20delay_minutes%20%3E0%0AGROUP%20BY%20city%3B
